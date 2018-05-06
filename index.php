@@ -30,8 +30,8 @@ switch ( $route->getController() ) {
         include( APP_CONTROLLER . '/authController.php');
         break;
 
-    case 'home':
-        include( APP_CONTROLLER . '/homeController.php');
+    case 'blog':
+        include( APP_CONTROLLER . '/blogController.php');
         break;
 
     default:
